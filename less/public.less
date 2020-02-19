@@ -1,0 +1,156 @@
+@all: 100%;
+@contentwidth: 1000px;
+@zero: 0px;
+.pr{
+    position: relative;
+}
+.pa{
+    position: absolute;
+}
+body,ul,li,p,h1,h2,h3,h4,h5,h6{
+    margin: @zero;
+    padding: @zero;
+}
+
+body.BLOG{
+    .header{
+        li.BLOG{
+            a{
+                background: #595959;
+                color: #fff;
+            }
+        }
+    }
+}
+
+body.ABOUT{
+    .header{
+        li.ABOUT{
+            a{
+                background: #595959;
+                color: #fff;
+            }
+        }
+    }
+}
+
+body.TOP{
+    .header{
+        li.TOP{
+            a{
+                background: #595959;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.header{
+    width: @all;
+    height: 50px;
+    background: #E2E2E2;
+    ul{
+        overflow: hidden;
+        list-style: none;
+        width: 360px;
+        margin: 0px auto;
+        li{
+            float: left;
+            width: 120px;
+            height: 50px;
+            text-align: center;
+            a{
+                display: block;
+                color: #000;
+                text-decoration: none;
+                line-height: 50px;
+            }
+            a:hover{
+                background: #595959;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.banner{
+    .pr;
+    overflow: hidden;
+    width: @all;
+    img{
+        width: 1536px;
+        vertical-align: top;
+    }
+    .title{
+        .pa;
+        left: 457px;
+        top: 99px;
+        padding: 20px 40px;
+        background: #DC5A42;
+        color: #fff;
+        letter-spacing: 6px;
+        h2{
+            font-size: 56px;
+            font-weight: normal;
+            margin-bottom: 16px;
+        }
+        .doubleline{
+            float: left;
+            width: 132px;
+            height: 3px;
+            margin-top: 6px;
+            border-top: 2px solid #DDD;
+            border-bottom: 2px solid #DDD;
+        }
+        h4{
+            float: left;
+            margin: 0px 16px;
+        }
+    }
+}
+
+.footer{
+    width: @all;
+    height: 260px;
+    background: #DC5A42;
+    .footcontent{
+        width: @contentwidth;
+        margin: 0px auto;
+        color: #fff;
+    }
+    form{
+        margin-bottom: 100px;
+    }
+}
+
+.footcontent{
+    color: #fff;
+    header{
+        padding: 20px 0px 10px 0px;
+    }
+    #emial{
+        width: 828px;
+        padding: 6px 16px;
+        margin-right: 4px;
+        border: 1px solid #fff;
+        border-radius: 2px;
+        background: #DC5A42;
+        color: #fff;
+    }
+    input::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
+    color: #fff;
+    }
+    #subscribe{
+        padding: 6px 16px;
+        border: 1px solid #fff;
+        border-radius: 2px;
+        background: #DC5A42;
+        color: #fff;
+    }
+    p{
+        img{
+            float: right;
+            margin-left: 6px;
+        }
+    }
+}

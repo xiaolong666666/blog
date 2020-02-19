@@ -1,0 +1,88 @@
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.main {
+  width: 100%;
+  padding: 30px 0px 0px;
+  background: #E2E2E2;
+}
+.main .maincontent {
+  width: 1000px;
+  margin: 0px auto;
+}
+.maincontent header {
+  height: 60px;
+  background: #09f;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+}
+.maincontent header span {
+  text-decoration: underline;
+}
+.maincontent .content {
+  padding: 20px 10px;
+  background: #fff;
+}
+.maincontent .content section {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 1px solid #999;
+  color: #999;
+}
+.maincontent .content section .pay {
+  float: left;
+  width: 450px;
+  margin-right: 40px;
+}
+.maincontent .content section .pay img {
+  width: 450px;
+}
+.maincontent .content section:last-child {
+  margin-bottom: 0px;
+}
+.read {
+  float: left;
+  width: 460px;
+  margin-top: 20px;
+  margin-right: 28px;
+}
+.read .author {
+  overflow: hidden;
+}
+.read .author div {
+  float: right;
+  font-size: 24px;
+}
+.read .author img {
+  float: left;
+  width: 40px;
+  margin-right: 8px;
+}
+.read header {
+  padding: 10px 0px;
+  background: #fff;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+}
+.read footer {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  width: 460px;
+  margin-right: 28px;
+  padding: 20px 0px 40px 0px;
+  border-top: 1px solid #999;
+}
+.read footer div {
+  float: right;
+}
+.read footer div img {
+  vertical-align: top;
+}

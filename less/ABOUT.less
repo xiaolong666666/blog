@@ -1,0 +1,38 @@
+@all: 100%;
+@contentwidth: 1000px;
+@zero: 0px;
+
+.main{
+    width: @all;
+    padding: 30px 0px 50px;
+    background: #E2E2E2;
+    .maincontent{
+        width: @contentwidth;
+        margin: 0px auto;
+    }
+}
+
+.maincontent{
+    header{
+        font-size: 32px;
+        color: #DC5A42;
+    }
+    .content{
+        overflow: hidden;
+        div:first-child{
+            width: 500px;
+            float: left;
+            margin-right: 45px;
+            img{
+                width: 500px;
+            }
+        }
+        div:nth-child(2){
+            width: 455px;
+            float: left;
+        }
+        p{
+            margin-bottom: 44px;
+        }
+    }
+}
